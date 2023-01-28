@@ -1,0 +1,25 @@
+body {
+  background-image: url("assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: 110%;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+.active {
+  border: 2px solid black;
+}
