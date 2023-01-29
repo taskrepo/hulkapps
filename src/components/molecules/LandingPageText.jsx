@@ -6,8 +6,10 @@ const LandingPageText = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen overflow-hidden">
       <div className="text-white">
-        <h4 className="text-center text-7xl">BREW ANYWHERE. BE ANYWHERE.</h4>
-        <p className="text-center text-base">
+        <h4 className="text-center text-7xl font-barlow">
+          BREW ANYWHERE. BE ANYWHERE.
+        </h4>
+        <p className="text-center text-base font-nunito font-bold">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut
           <p>

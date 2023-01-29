@@ -11,13 +11,13 @@ const NavbarItems = () => {
   return (
     <div>
       <NavbarHeaderShippingText />
-      <Navbar className="bg-white flex h-16">
-        <div className="text-black mx-16">
+      <Navbar className="bg-white flex h-16 font-josefin font-bold">
+        <div className="text-black mx-16 cursor-pointer">
           <a>SHOP</a>
           <a className="ml-16">OUR STORY</a>
         </div>
         <img className="ml-48" src={Espro} alt="profile image" />
-        <div className="text-black flex mx-5">
+        <div className="text-black flex mx-5 cursor-pointer">
           <a className="mr-16">BREW GUIDES</a>
           <a className="mr-20">BLOG</a>
           <img

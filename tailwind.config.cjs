@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      nunito: ["nunito", "sans-serif"],
+      poppins: ["Poppins", "sans-serif"],
+      barlow: ["Barlow Condensed", "sans-serif"],
+      josefin: ["Josefin Sans", "sans-serif"],
+    },
   },
-  plugins: [],
 };
