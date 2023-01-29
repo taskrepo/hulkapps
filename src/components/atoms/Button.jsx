@@ -1,5 +1,4 @@
 import React from "react";
-import { Button as StrapButton } from "reactstrap";
 
 const Button = () => {
   return (
